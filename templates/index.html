@@ -1,0 +1,30 @@
+{% extends 'base.html' %} {% block head %}
+<title>Home</title>
+{% endblock %} {% block body %}
+
+<br />
+<h1>Home Page</h1>
+<br />
+
+<main role="main">
+  <div class="jumbotron">
+    <div class="col-sm-8 mx-auto">
+      <h1>Home</h1>
+      <p>
+        Welcome to the Clever Programmer Blog! Here we'll be talking about
+        everything computer science. Basics, Frameworks, machine learning, toher
+        data science stuff
+      </p>
+      <p>
+        Go Visit us at our website.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="/posts" role="button"
+          >Go To Posts &raquo;</a
+        >
+      </p>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
